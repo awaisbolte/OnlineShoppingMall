@@ -1,0 +1,78 @@
+imp   make changes to  function.inc.php//change eamil id
+          add s.css file in header.php
+awaisbolte9@gmail.com
+786143786
+imgbb.com website for image upload
+
+
+Part7 : Changes
+1. 34min:  changing thankyou message. (Display alert box)
+2. 53min:  Chinged to checkbox (delete change box and rearrange to previous category video) .* refer part8 video to remove check box.
+
+PART 9: Changes
+1. 3min Enter your  gmail account to use smpt of gmail for sending mail.
+
+Part 11: Changes
+1. 4min Veg/ Non-veg section
+For Admin Panel:- (Remove it OR change page to previous page folder-dish.php & manage_dish.php -- watch full video fro making changes)
+For Frontend Site:- (timer 14min) make changes
+IMPPPPPPPPPPPP:- copy paste previous folder     
+
+2. Crop Images
+
+PART 12:
+1.  31min Sweetjs.org   (pop up libraries)
+2. 33min  Change /dish added successfully/ to (product added successfully)
+
+PART stripe:
+1. 11:45 min data-name="Your NAme|| OSM"
+2.  =//=          data-description="same as above"
+
+PART 16:
+1.  change logo of bill
+write your email in function.inc.php file for email sending after placing order
+
+Part 18:
+1.  Change Invoice billing details
+
+PART 21:
+1.  1:15 min   Change order status(delivered,shipped)
+
+
+REMOVE THIS TABLE DATA <td> from order.php line 46 to 55 and   order_history.php line 43 to 47
+
+<td style="font-size:14px;"><?php echo $row['total_price']?><br/>
+						<?php
+						if($row['coupon_code']!=''){
+						?>
+						<?php echo $row['coupon_code']?><br/>
+						<?php echo $row['final_price']?>
+						<?php } ?>
+							
+		</td>
+
+
+
+<?php
+if($row['coupon_code']!=''){
+		?>
+               Coupon Code:- <?php echo $row['coupon_code']?><br />
+               Final Price:- <?php echo $row['final_price']?>
+
+
+
+
+
+
+
+checkout.php
+pgRedirect,php
+pgResponse
+
+
+
+
+
+
+
+
